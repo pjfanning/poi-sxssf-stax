@@ -32,7 +32,7 @@ public class SxssfSaveTest {
   public static void main(String[] args) {
     try {
       if (args.length == 0) {
-        throw new Exception("Expected param: filname");
+        throw new Exception("Expected param: filename");
       }
       String filename = args[0];
       SXSSFWorkbook wb = new SXSSFWorkbookStax();
